@@ -35,7 +35,7 @@ export default function Footer() {
             >
               <Image
                 src="/images/resgate.png"
-                alt="Link do instagram do  ministerio Resgate"
+                alt="Link do instagram do ministério Resgate"
                 width={200}
                 height={80}
               />
