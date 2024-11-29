@@ -52,7 +52,7 @@ export default function Footer() {
             >
               <Image
                 src="/images/live.png"
-                alt="Link do instagram do  ministerio Resgate"
+                alt="Link do instagram do ministério Live"
                 width={200}
                 height={80}
               />
@@ -69,7 +69,7 @@ export default function Footer() {
             >
               <Image
                 src="/images/cn.png"
-                alt="Link do instagram do  ministerio Resgate"
+                alt="Link do instagram da CN Maraponga"
                 width={200}
                 height={80}
               />
