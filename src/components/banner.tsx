@@ -1,20 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
 
 interface BannerProps {
-  imageName: string;
   message: string;
   bgPosition?: "bg-center" | "bg-bottom" | "bg-top";
 }
 
-export default function Banner({
-  imageName,
-  message,
-  bgPosition,
-}: BannerProps) {
+export default function Banner({ message, bgPosition }: BannerProps) {
   return (
     <section className="overflow-x-hidden">
       <div
-        className={`h-svh w-svw bg-fixed bg-[url('/images/${imageName}')] bg-cover bg-no-repeat ${
+        className={`h-svh w-svw bg-fixed bg-[url('/images/banner.png')] bg-cover bg-no-repeat ${
           bgPosition ? bgPosition : "bg-center"
         } flex justify-center items-center`}
       >
