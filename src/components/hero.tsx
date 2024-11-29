@@ -1,4 +1,8 @@
-export default function Hero() {
+interface HeroProps {
+  message: string;
+}
+
+export default function Hero({ message }: HeroProps) {
   return (
     <section className="bg-white h-svh w-svw flex justify-center items-center">
       <div className="mx-auto">
@@ -8,13 +12,7 @@ export default function Hero() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Neste dia, lembre-se de que cada novo dia é uma oportunidade dada
-            por Deus para renovarmos nossa fé, esperança e amor. Que você possa
-            encontrar alegria nas pequenas coisas, gratidão em seu coração e paz
-            em sua alma. Aproveite este dia para se conectar com Deus, refletir
-            sobre Suas bênçãos e compartilhar amor e bondade com aqueles ao seu
-            redor. Que a luz divina ilumine seu caminho e que você sinta a
-            presença do Senhor em cada momento!
+            {message}
           </p>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden relative">
       <Banner
-        message={`"Este é o dia que o Senhor fez; regozijemo-nos e alegremo-nos nele." — Salmos 118:24 📖`}
+        message={`“O Senhor é bom, um refúgio em tempos de angústia. Ele protege os que nEle confiam” — Naum 1:7 📖`}
       >
         {" "}
         <Image
@@ -17,10 +17,10 @@ export default function Home() {
           height={80}
         />
       </Banner>
-      <Hero />
+      <Hero message="Desfrute da bondade, refúgio e proteção, confiando no Senhor! NEle você pode confiar 100%." />
       <Banner
         bgPosition="bg-bottom"
-        message="Aproveite cada momento com Senhor Jesus ! Deus te abençoe! 🙏"
+        message="Fique bem! Há coisas que só Deus sabe e pode fazer! Acredite: Ele fará sempre o melhor para você! 🙏"
       />
       <Footer />
     </div>
