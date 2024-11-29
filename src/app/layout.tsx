@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Landing Page</title>
+        <title>Resgate</title>
         <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
       </head>
       <body
