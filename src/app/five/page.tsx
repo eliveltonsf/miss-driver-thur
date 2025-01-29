@@ -1,6 +1,7 @@
 import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
+import Movie from "@/components/movie";
 import Image from "next/image";
 
 export default function Home() {
@@ -22,6 +23,11 @@ export default function Home() {
         bgPosition="bg-bottom"
         message="Fique bem! Há coisas que só Deus sabe e pode fazer! Acredite: Ele fará sempre o melhor para você! 🙏"
       />
+      <Movie>
+        <video width="600" height="auto" controls>
+          <source src="videos/five.mp4" type="video/mp4" />
+        </video>
+      </Movie>
       <Footer />
     </div>
   );
