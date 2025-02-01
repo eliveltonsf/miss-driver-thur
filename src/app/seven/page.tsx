@@ -1,6 +1,7 @@
 import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
+import Movie from "@/components/movie";
 import Image from "next/image";
 
 export default function Home() {
@@ -21,7 +22,12 @@ export default function Home() {
       <Banner
         bgPosition="bg-bottom"
         message="Aceite esse amor que nunca falha e permita que Jesus te leve para um lugar de paz e propósito. Ele veio por você. E quando você se entregar a Ele, descobrirá que não há escuridão que Sua luz não possa dissipar. ❤️"
-      />
+      />{" "}
+      <Movie>
+        <video width="600" height="auto" controls>
+          <source src="videos/seven.mp4" type="video/mp4" />
+        </video>
+      </Movie>
       <Footer />
     </div>
   );
