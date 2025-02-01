@@ -1,6 +1,7 @@
 import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
+import Movie from "@/components/movie";
 import Image from "next/image";
 
 export default function Home() {
@@ -26,6 +27,11 @@ Traga à sua memória aquilo que te traz esperança! Louve a Deus todas as manh�
         bgPosition="bg-bottom"
         message="Deus enxugará dos seus olhos toda lágrima e a sua tristeza se transformará em alegria. 🙏"
       />
+      <Movie>
+        <video width="600" height="auto" controls>
+          <source src="videos/four.mp4" type="video/mp4" />
+        </video>
+      </Movie>
       <Footer />
     </div>
   );

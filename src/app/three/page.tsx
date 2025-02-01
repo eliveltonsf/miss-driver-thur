@@ -1,6 +1,7 @@
 import Banner from "@/components/banner";
 import Footer from "@/components/footer";
 import Hero from "@/components/hero";
+import Movie from "@/components/movie";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,10 +10,9 @@ export default function Home() {
       <Banner
         message={`"Assim que, se alguém está em Cristo, nova criatura é: as coisas velhas já passaram; eis que tudo se fez novo." — 2 Coríntios 5:17 📖`}
       >
-        {" "}
         <Image
           src="/images/resgate.png"
-          alt="Link do instagram do  ministerio Resgate"
+          alt="Link do instagram do ministerio Resgate"
           width={200}
           height={80}
         />
@@ -22,6 +22,11 @@ export default function Home() {
         bgPosition="bg-bottom"
         message="Confie no Senhor, pois Ele aliviará suas cargas e te transformará em uma nova criatura. 🙏"
       />
+      <Movie>
+        <video width="600" height="auto" controls>
+          <source src="videos/three.mp4" type="video/mp4" />
+        </video>
+      </Movie>
       <Footer />
     </div>
   );
