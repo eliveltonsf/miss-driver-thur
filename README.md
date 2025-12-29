@@ -38,8 +38,7 @@ miss-driver-thur/
 │       └── utils.ts            # Funções utilitárias
 ├── public/
 │   ├── images/                 # banner.png, resgate.png
-│   ├── videos/                 # one.mp4 até seven.mp4
-│   └── music/                  # mil-motivos.mp3
+│   └── videos/                 # one.mp4 até seven.mp4
 └── tailwind.config.ts          # Configuração customizada
 ```
 
